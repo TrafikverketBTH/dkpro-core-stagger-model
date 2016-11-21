@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+	<artifactId>de.tudarmstadt.ukp.dkpro.core.stagger-model-tagger-sv-suctags</artifactId>
+	<version>20161113</version>
+	
+	<!-- <repositories>
+		<repository>
+			<id>ukp-oss-model-releases</id>
+			<url>http://zoidberg.ukp.informatik.tu-darmstadt.de/artifactory/public-model-releases-local</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories> -->
+	<build>
+		<resources>
+			<resource>
+				<directory>resources</directory>
+			</resource>
+		</resources>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.stagger-upstream-tagger-sv-suctags</artifactId>
+			<version>20161113</version>
+			<classifier></classifier>
+		</dependency>
+	</dependencies>
+</project>
